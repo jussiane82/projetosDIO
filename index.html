@@ -1,0 +1,47 @@
+<html>
+    <head>
+<title>Página principal</title>
+    </head>
+
+    <body>
+     <h1 >Apache NetBeans 16</h1>
+     <hr />
+     <h2 id="inicio">Índice</h2>
+     <ul>
+        <li><a href="#item1" title="Clique aqui" target="_blank">Connecting to Oracle Database from NetBeans IDE</a></li>
+        <li><a href="#item2" title="Clique aqui" target="_blank">Before You Begin</a></li>
+        <li><a href="#item3" title="Clique aqui" target="_blank">Establishing a Connection to Oracle Database</a></li>
+        <li><a href="#item4" title="Clique aqui" target="_blank">Manipulating Data in Oracle Databasee</a></li>
+        <li><a href="#item5" title="Clique aqui" target="_blank">Creating a Table</a></l
+    </ul>
+         
+    <h2 id="item1">Connecting to Oracle Database from NetBeans IDE</h2>
+    <small><a href="#inicio">(voltar)</a></small> 
+    <p>NetBeans IDE includes built-in support for Oracle Database. You can easily establish a connection from inside the IDE and begin working with the database. This tutorial demonstrates how to use a local installation of Oracle Database 10_g_ Express Edition (Oracle Database XE), a lightweight database that is free to develop, deploy, and distribute.</p>
+     
+     <h2 id="item2">Before You Begin</h2>
+     <small><a href="#inicio"> (voltar) </a></small> 
+     <p>Oracle JDBC Thin driver is based on Java and is platform independent. This standalone driver does not require the presence of other Oracle libraries and allows a direct connection to an Oracle Database. This tutorial uses this driver to show how to connect to Oracle Database. Before walking through the tutorial, you need to download the ojdbc6.jar file and save it on your system.</p>
+
+     <h2 id="item3">Establishing a Connection to Oracle Database</h2>
+     <small><a href="#inicio">(voltar)</a></small> 
+     <p>In this exercise you will test and create a new connection to the database.</p>
+     <ol>
+        <li>Start the Oracle database.</li>
+        <li>Open the Services window (Window > Services or Ctrl-5;⌘-5 on Mac). In the Services window, right-click the Databases node and choose New Connection.
+        </li>
+    </ol>
+    
+    <h2 id="item4">Manipulating Data in Oracle Database</h2>
+     <small><a href="#inicio">(voltar)</a></small> 
+     <p>A common way of interacting with databases is running SQL commands in an SQL editor or by using database management interfaces. For example, Oracle Database XE has a browser-based interface through which you can administer the database, manage database objects, and manipulate data.</p>
+    <p>Although you can perform most of the database-related tasks through the Oracle Database management interface, in this tutorial we demonstrate how you can make use of the SQL Editor in the NetBeans IDE to perform some of these tasks. The following exercises demonstrate how to create a new user, quickly recreate a table, and copy the table data.</p>
+    
+    <h2 id="item5">Creating a Table</h2>
+    <small><a href="#inicio">(voltar)</a></small> 
+    <p>There are several ways to create a table in the database through the NetBeans IDE. For example, you can run an SQL file (right-click the file and choose Run File), execute an SQL Command (right-click the connection node and choose Execute Command) or use the Create Table dialog box (right-click the Tables node and choose Create Table). In this exercise you will recreate a table by using the structure of another table.</p>
+    <p>In this example, you want the user jim to create a copy of the Departments table in his schema by recreating the table from the hr database. Before you create the table you will need to disconnect from the server and log in as user jim .</p>
+     
+    </body>
+
+     </html>
